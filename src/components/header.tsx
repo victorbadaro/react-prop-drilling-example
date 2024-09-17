@@ -1,4 +1,4 @@
-import { Button } from './ui/button';
+import { CreateUserDialog } from './create-user-dialog';
 
 export function Header() {
 	return (
@@ -6,7 +6,7 @@ export function Header() {
 			<nav className="flex justify-between items-center container mx-auto">
 				<span className="text-2xl">React Prop Drilling Example</span>
 
-				<Button type="button">New user</Button>
+				<CreateUserDialog />
 			</nav>
 		</header>
 	);
