@@ -20,6 +20,8 @@
 	<br>
 	<img src="https://img.shields.io/badge/React-61DAFB.svg?style=flat&logo=React&logoColor=black" alt="React">
 	<img src="https://img.shields.io/badge/tailwindcss-0F172A.svg?style=flat&logo=tailwindcss" alt="tailwindcss">
+	<img src="https://img.shields.io/badge/shadcnui-000000.svg?style=flat&logo=shadcnui" alt="shadcnui">
+	<br>
 	<img src="https://img.shields.io/badge/Vite-646CFF.svg?style=flat&logo=Vite&logoColor=white" alt="Vite">
 </p>
 
