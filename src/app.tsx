@@ -8,12 +8,12 @@ export type User = {
 	email: string;
 }
 
-export type UserToBeUpdated = Omit<User, 'id'>;
+export type UserToBeAdded = Omit<User, 'id'>;
 
 export function App() {
 	const [users, setUsers] = useState<User[]>([]);
 
-	function addUser(user: UserToBeUpdated) {
+	function addUser(user: UserToBeAdded) {
 		setUsers((prev) => [...prev, {
 			id: users.length + 1,
 			name: user.name,

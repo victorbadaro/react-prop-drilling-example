@@ -1,4 +1,4 @@
-import { UserToBeUpdated } from '@/app';
+import { UserToBeAdded } from '@/app';
 import { FormEvent, useState } from 'react';
 import { Button } from './ui/button';
 import { Dialog, DialogClose, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle, DialogTrigger } from './ui/dialog';
@@ -6,7 +6,7 @@ import { Input } from './ui/input';
 import { Label } from './ui/label';
 
 interface CreateUserDialogProps {
-	addUser: (user: UserToBeUpdated) => void;
+	addUser: (user: UserToBeAdded) => void;
 }
 
 export function CreateUserDialog({ addUser }: CreateUserDialogProps) {

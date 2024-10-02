@@ -1,8 +1,8 @@
-import { UserToBeUpdated } from '@/app';
+import { UserToBeAdded } from '@/app';
 import { CreateUserDialog } from './create-user-dialog';
 
 interface HeaderProps {
-	addUser: (user: UserToBeUpdated) => void;
+	addUser: (user: UserToBeAdded) => void;
 }
 
 export function Header({ addUser }: HeaderProps) {
