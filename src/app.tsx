@@ -13,11 +13,11 @@ export type UserToBeAdded = Omit<User, 'id'>;
 export function App() {
 	const [users, setUsers] = useState<User[]>([]);
 
-	function addUser(user: UserToBeAdded) {
+	function addUser(userToBeAdded: UserToBeAdded) {
 		setUsers((prev) => [...prev, {
 			id: users.length + 1,
-			name: user.name,
-			email: user.email
+			name: userToBeAdded.name,
+			email: userToBeAdded.email
 		}]);
 	}
 

@@ -6,7 +6,7 @@ import { Input } from './ui/input';
 import { Label } from './ui/label';
 
 interface CreateUserDialogProps {
-	addUser: (user: UserToBeAdded) => void;
+	addUser: (userToBeAdded: UserToBeAdded) => void;
 }
 
 export function CreateUserDialog({ addUser }: CreateUserDialogProps) {
